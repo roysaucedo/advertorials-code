@@ -1,0 +1,104 @@
+/* FONT  */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.advertorial-text {
+    font-family: 'Overpass', sans-serif;
+}
+
+.advertorial-text-section> p {
+  line-height: 2;
+}
+
+.advertorial-text-section> a {
+  text-decoration: none;
+  color: #FF3801;
+}
+
+a {
+  text-decoration: none;
+  color: #FF3801;
+  font-weight: 700;
+}
+
+.advertorial-btn {
+  background-color: #FF3801;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0px 10px;
+}
+
+.advertorial-btn>p {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+
+
+.test-page-wrapper {
+    font-family: 'Overpass', sans-serif;
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 90%;
+    text-align: left;
+    padding: 20px 0px;
+  }
+  
+.brand-logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+  .brand-logo {
+    width: 100px;
+    margin: auto;
+  }
+  
+  .ad-author {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    
+  }
+  
+  .ad-author>img {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    
+  }
+  
+  .advertorial-text-section {
+      padding: 20px 0px;
+  }
+
+  
+  
+  
+  @media screen and (min-width: 750px) {
+    .test-page-wrapper {
+      max-width: 600px;
+    }
+    .ad-author>img {
+    width: 100px;
+    height: 100px;
+  }
+
+  }
+  
+  @media screen and (min-width: 990px) {
+    .test-page-wrapper {
+      max-width: 950px;
+    }
+      .ad-author>img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  }
